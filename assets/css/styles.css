@@ -1,0 +1,172 @@
+a {
+  color:#9C27B0;
+}
+
+body, html {
+  color:#263238;
+  background:#ECEFF1;
+  font-size:24px;
+  line-height:1.6em;
+  font-family:'Lato';
+  font-weight:400;
+}
+
+.header-strapline {
+  background:#9c27b0;
+  background:linear-gradient(to right,#00b7bb,#9c27b0);
+}
+
+.t-white {
+  color:#fff;
+}
+
+.t-colored {
+  color:#9c27b0;
+}
+
+.header-tagline {
+  width:820px;
+  max-width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.section {
+  padding-top:3em;
+  padding-bottom:3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family:'Playfair Display';
+}
+
+.t-bold {
+  font-weight:600;
+}
+
+a, li, td, blockquote {
+  font-family:'Lato';
+  font-size:20px;
+  line-height:1.6em;
+}
+
+.btn.btn-primary {
+  background-color:#00b7bb;
+  border-color:#00b7bb;
+}
+
+.btn.btn-primary:hover {
+  background-color:#9c27b0;
+  border-color:#00b7bb;
+}
+
+.btn {
+  padding-top:12px;
+  padding-right:35px;
+  padding-bottom:12px;
+  padding-left:35px;
+}
+
+.b-white {
+  background:#fff;
+}
+
+.b-colored {
+  background:#9c27b0;
+}
+
+.main-header {
+  background-repeat:no-repeat;
+  background-position:top center;
+  background-size:cover;
+}
+
+.header-strapline p {
+  margin-bottom:15px;
+}
+
+.t-thin {
+  font-weight:300;
+}
+
+.hr-colored {
+  width:100px;
+  height:4px;
+  background:rgba(0,0,0, .12);
+  border:none;
+}
+
+.overview {
+  background-repeat:no-repeat;
+  background-position:left bottom;
+}
+
+.t-colored-2 {
+  color:#00b7bb;
+}
+
+.btn-inverted {
+  border:2px solid #fff;
+}
+
+.btn-inverted {
+  border:2px solid #00b7bb;
+  background:#00b7bb;
+  color:#fff;
+}
+
+.icon-check {
+  margin-right:15px;
+  vertical-align:middle;
+  position:relative;
+  top:-2px;
+}
+
+.t-underline {
+  text-decoration:underline;
+}
+
+.course-info-body ul li {
+  padding-left:45px;
+  padding-right:65px;
+  margin-bottom:15px;
+  list-style:none;
+  background:url("../../assets/img/checked2.svg") no-repeat left 3px;
+  background-size:28px;
+}
+
+.course-info-body ul li:after {
+  content:"";
+  position:absolute;
+  background:url("checked_(1).svg");
+}
+
+.course-info-body ul {
+  margin:0 0 25px 0;
+  padding:0 0 0 25px;
+}
+
+.course-info-body > ul > li.heading {
+  list-style:none;
+  padding-left:0px;
+  margin-left:-25px;
+  font-size:28px;
+  font-weight:bold;
+  text-align:center;
+  background:none !important;
+}
+
+li.list-subheading {
+  list-style:none;
+  padding-left:0px !important;
+  background:none !important;
+}
+
+.t-italic {
+  font-style:italic;
+}
+
+.t-white-54 {
+  color:rgba(255,255,255, .54);
+}
+
