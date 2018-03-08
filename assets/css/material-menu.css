@@ -10,11 +10,8 @@ a, a:hover, a:focus {
 
 .navbar .navbar-brand {
   position:relative;
-  height:60px;
-  line-height:60px;
   color:inherit;
   font-size:30px;
-  margin-top:15px;
 }
 
 .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
@@ -87,7 +84,7 @@ a, a:hover, a:focus {
 }
 
 a, a:focus, a:hover {
-  color:#009688;
+  color:#67bebf;
 }
 
 .navbar {
@@ -98,8 +95,6 @@ a, a:focus, a:hover {
 
 .navbar .navbar-brand {
   position:relative;
-  height:60px;
-  line-height:30px;
   color:inherit;
 }
 
@@ -158,8 +153,8 @@ a, a:focus, a:hover {
 
 @media (max-width:1199px) {
   .navbar .navbar-nav > li > a {
-    padding-top:15px;
-    padding-bottom:15px;
+    padding-top:5px;
+    padding-bottom:5px;
   }
 }
 
@@ -221,6 +216,8 @@ a, a:focus, a:hover {
 .navigation-clean.navbar .navbar-nav > li > a {
   padding-left:18px;
   padding-right:18px;
+  padding-top:5px;
+  padding-bottom:5px;
 }
 
 .navigation-clean.navbar-default .navbar-nav > li > a {
@@ -234,5 +231,32 @@ a, a:focus, a:hover {
 
 .course-info-standard {
   background:rgba(255,255,255, .38) !important;
+}
+
+.h1, h1 {
+  font-size:2em;
+}
+
+iframe {
+  border:0px;
+  max-width:100%;
+}
+
+.btn-custom:hover {
+  border:2px solid #fff;
+  color:#fff;
+}
+
+.btn-custom {
+  border:2px solid #fff;
+}
+
+.testimonials {
+  background:#6b0062;
+  background:linear-gradient(to right,#67bebf,#6b0062);
+}
+
+.swiper-slide.text-center.t-white {
+  overflow:hidden;
 }
 

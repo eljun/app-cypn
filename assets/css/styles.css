@@ -1,5 +1,5 @@
 a {
-  color:#9C27B0;
+  color:#6b0062;
 }
 
 body, html {
@@ -12,8 +12,8 @@ body, html {
 }
 
 .header-strapline {
-  background:#9c27b0;
-  background:linear-gradient(to right,#00b7bb,#9c27b0);
+  background:#6b0062;
+  background:linear-gradient(to right,#67bebf,#6b0062);
 }
 
 .t-white {
@@ -21,19 +21,18 @@ body, html {
 }
 
 .t-colored {
-  color:#9c27b0;
+  color:#6b0062;
 }
 
 .header-tagline {
-  width:820px;
   max-width:100%;
   margin-left:auto;
   margin-right:auto;
 }
 
 .section {
-  padding-top:3em;
-  padding-bottom:3em;
+  padding-top:1.5em;
+  padding-bottom:1.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -51,13 +50,13 @@ a, li, td, blockquote {
 }
 
 .btn.btn-primary {
-  background-color:#00b7bb;
-  border-color:#00b7bb;
+  background-color:#67bebf;
+  border-color:#67bebf;
 }
 
 .btn.btn-primary:hover {
   background-color:#9c27b0;
-  border-color:#00b7bb;
+  border-color:#67bebf;
 }
 
 .btn {
@@ -82,7 +81,7 @@ a, li, td, blockquote {
 }
 
 .header-strapline p {
-  margin-bottom:15px;
+  margin-bottom:10px;
 }
 
 .t-thin {
@@ -110,8 +109,8 @@ a, li, td, blockquote {
 }
 
 .btn-inverted {
-  border:2px solid #00b7bb;
-  background:#00b7bb;
+  border:2px solid #67bebf;
+  background:#67bebf;
   color:#fff;
 }
 
@@ -124,6 +123,15 @@ a, li, td, blockquote {
 
 .t-underline {
   text-decoration:underline;
+}
+
+.course-info-body ul.disabled-list li {
+  padding-left:45px;
+  padding-right:65px;
+  margin-bottom:15px;
+  list-style:none;
+  background:url("../../assets/img/cancel.svg") no-repeat left 3px;
+  background-size:28px;
 }
 
 .course-info-body ul li {
@@ -153,6 +161,12 @@ a, li, td, blockquote {
   font-size:28px;
   font-weight:bold;
   text-align:center;
+  background:none !important;
+}
+
+li.list-subheading ul {
+  list-style:none;
+  padding-left:0px !important;
   background:none !important;
 }
 
