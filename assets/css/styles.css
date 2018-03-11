@@ -5,7 +5,7 @@ a {
 body, html {
   color:#263238;
   background:#ECEFF1;
-  font-size:24px;
+  font-size:22px;
   line-height:1.6em;
   font-family:'Lato';
   font-weight:400;
@@ -15,8 +15,7 @@ body, html {
   font-family: 'Lato' !important;
 }
 .header-strapline {
-  background:#731369;
-  background:linear-gradient(to right,#70bcb9,#731369);
+  background:#70bcb9;
 }
 
 .t-white {
@@ -26,11 +25,21 @@ body, html {
 .t-colored {
   color:#731369;
 }
-
+.b-colored {
+  background: #731369 !important;
+  color: #fff;
+}
 .header-tagline {
   max-width:100%;
   margin-left:auto;
   margin-right:auto;
+}
+
+.b-gradient {
+  background:#731369;
+  -webkit-background:linear-gradient(45deg,#70bcb9,#731369);
+  -moz-background:linear-gradient(45deg,#70bcb9,#731369);
+  background:linear-gradient(45deg,#70bcb9,#731369);
 }
 
 .section {
@@ -48,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a, li, td, blockquote {
   font-family:'Lato';
-  font-size:20px;
+  font-size:22px;
   line-height:1.6em;
 }
 
@@ -203,7 +212,7 @@ li.list-subheading {
   background: #70bcb9 url('../../assets/img/details-part2-background.jpg') no-repeat top center;
 }
 .details-myth {
-  background: #eceff1 url('../../assets/img/details-myth-background.jpg') no-repeat top left fixed;
+  background: #fff url('../../assets/img/details-myth-background.jpg') no-repeat top left fixed;
   background-size: contain;
 }
 .papertype {

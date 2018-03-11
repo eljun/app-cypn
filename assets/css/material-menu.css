@@ -250,12 +250,6 @@ iframe {
 .btn-custom {
   border:2px solid #fff;
 }
-
-.testimonials {
-  background:#731369;
-  background:linear-gradient(to right,#70bcb9,#731369);
-}
-
 .swiper-slide.text-center.t-white {
   overflow:hidden;
 }
