@@ -10,6 +10,27 @@ body, html {
   font-family:'Lato';
   font-weight:400;
 }
+.swiper-container {
+  width:100%;
+  padding-right:55px;
+  padding-left:55px;
+  padding-top:55px;
+  padding-bottom:55px;
+  overflow:hidden;
+}
+
+.swiper-pagination-bullet-active {
+  background:rgba(255,255,255, .38);
+  width:18px;
+  height:18px;
+}
+
+.swiper-pagination-bullet {
+  background:rgba(255,255,255, .78);
+  width:18px;
+  height:18px;
+}
+
 
 .f-lato {
   font-family: 'Lato' !important;
