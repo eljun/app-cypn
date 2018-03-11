@@ -10,6 +10,9 @@ body, html {
   font-family:'Lato';
   font-weight:400;
 }
+iframe {
+  max-width: 100%
+}
 .swiper-container {
   width:100%;
   padding-right:55px;
@@ -263,6 +266,9 @@ li.list-subheading {
   background-size: 28px;
 }
 
+.bordered {
+  border: 1px solid rgba(0,0,0, .12);
+}
 .list-white li{  
   padding-left: 45px;
   padding-right: 35px;
@@ -277,4 +283,50 @@ li.list-subheading {
 }
 .course-inf-header h2 {
   font-size: 60px;
+}
+.card-body {
+  padding: 25px 55px;
+}
+.card-header {
+  padding: 0px;
+  border:0px;
+  border-radius: 0px !important;
+  margin-bottom: 5px;
+}
+.card-header .btn-link {
+  background: #f4f6f8;
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-family: "Lato";
+  color: #000;
+  font-weight: 600;
+  border: 0px;
+  padding: 25px 55px;
+}
+.card {
+  border: 0px;
+}
+svg {
+  vertical-align: middle;
+  margin-right: 15px;
+  opacity: .54
+}
+.card-item:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.card-item {
+  border-bottom: 1px solid rgba(0,0,0, .12);
+  padding: 25px 0;
+}
+.card-item .card-info {
+  width: 70%;
+  padding-left: 25px;
+}
+
+.card-item .card-thumbnail {
+  width: 30%;
+  float: left;
 }
