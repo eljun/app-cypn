@@ -89,7 +89,7 @@ a, li, td, blockquote {
 
 .btn.btn-primary:hover {
   background-color:#9c27b0;
-  border-color:#70bcb9;
+  border-color:#9c27b0;
 }
 
 .btn {
@@ -98,7 +98,14 @@ a, li, td, blockquote {
   padding-bottom:12px;
   padding-left:35px;
 }
-
+.btn-custom {
+  border: 2px solid #fff;
+}
+.btn-custom:hover {
+  background: #fff;
+  color: #9c27b0 ;
+  border: 2px solid #fff;
+}
 .b-white {
   background:#fff;
 }
@@ -224,7 +231,7 @@ li.list-subheading {
   content: "";
   display: block;
   width: 100px;
-  height: 100px;
+  height: 75px;
   margin-left: auto;
   margin-right:auto;
   background: #70bcb9 url('../../assets/img/details-top-bg.png') no-repeat top center;
@@ -258,7 +265,7 @@ li.list-subheading {
 
 .list-white li{  
   padding-left: 45px;
-  padding-right: 65px;
+  padding-right: 35px;
   margin-bottom: 15px;
   list-style: none;
   background: url(../../assets/img/check.svg) no-repeat left 3px;
