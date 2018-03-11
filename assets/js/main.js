@@ -1,9 +1,9 @@
 $(document).ready(function () {
     
-    $('.navbar').sticky({zIndex:9})
+    $('.header-strapline').sticky({zIndex:9})
     var mySwiper = new Swiper ('.swiper-container', {                
 
-        // If we need pagination
+        // If we need pagsination
         pagination: '.swiper-pagination',
 
         // Navigation arrows

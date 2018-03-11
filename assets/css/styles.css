@@ -1,5 +1,5 @@
 a {
-  color:#6b0062;
+  color:#731369;
 }
 
 body, html {
@@ -11,9 +11,12 @@ body, html {
   font-weight:400;
 }
 
+.f-lato {
+  font-family: 'Lato' !important;
+}
 .header-strapline {
-  background:#6b0062;
-  background:linear-gradient(to right,#67bebf,#6b0062);
+  background:#731369;
+  background:linear-gradient(to right,#70bcb9,#731369);
 }
 
 .t-white {
@@ -21,7 +24,7 @@ body, html {
 }
 
 .t-colored {
-  color:#6b0062;
+  color:#731369;
 }
 
 .header-tagline {
@@ -50,13 +53,13 @@ a, li, td, blockquote {
 }
 
 .btn.btn-primary {
-  background-color:#67bebf;
-  border-color:#67bebf;
+  background-color:#70bcb9;
+  border-color:#70bcb9;
 }
 
 .btn.btn-primary:hover {
   background-color:#9c27b0;
-  border-color:#67bebf;
+  border-color:#70bcb9;
 }
 
 .btn {
@@ -109,8 +112,8 @@ a, li, td, blockquote {
 }
 
 .btn-inverted {
-  border:2px solid #67bebf;
-  background:#67bebf;
+  border:2px solid #70bcb9;
+  background:#70bcb9;
   color:#fff;
 }
 
@@ -184,3 +187,57 @@ li.list-subheading {
   color:rgba(255,255,255, .54);
 }
 
+.details {
+  background: #fafafa
+}
+.details-facts:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right:auto;
+  background: #70bcb9 url('../../assets/img/details-top-bg.png') no-repeat top center;
+}
+.details-facts {
+  background: #70bcb9 url('../../assets/img/details-part2-background.jpg') no-repeat top center;
+}
+.details-myth {
+  background: #eceff1 url('../../assets/img/details-myth-background.jpg') no-repeat top left fixed;
+  background-size: contain;
+}
+.papertype {
+  width: 960px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 35px;
+}
+.details-myth .papertype {
+  width: 768px;
+  margin-right: 0px;
+}
+.list-colored li{
+  padding-left: 45px;
+  padding-right: 65px;
+  margin-bottom: 15px;
+  list-style: none;
+  background: url(../../assets/img/checked2.svg) no-repeat left 3px;
+  background-size: 28px;
+}
+
+.list-white li{  
+  padding-left: 45px;
+  padding-right: 65px;
+  margin-bottom: 15px;
+  list-style: none;
+  background: url(../../assets/img/check.svg) no-repeat left 3px;
+  background-size: 28px;
+}
+.list-columns li {
+  display: inline-block;
+  width: 50%;
+}
+.course-inf-header h2 {
+  font-size: 60px;
+}

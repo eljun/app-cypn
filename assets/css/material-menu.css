@@ -84,7 +84,7 @@ a, a:hover, a:focus {
 }
 
 a, a:focus, a:hover {
-  color:#67bebf;
+  color:#70bcb9;
 }
 
 .navbar {
@@ -252,8 +252,8 @@ iframe {
 }
 
 .testimonials {
-  background:#6b0062;
-  background:linear-gradient(to right,#67bebf,#6b0062);
+  background:#731369;
+  background:linear-gradient(to right,#70bcb9,#731369);
 }
 
 .swiper-slide.text-center.t-white {
