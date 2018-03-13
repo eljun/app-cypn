@@ -40,6 +40,9 @@ iframe {
 }
 .header-strapline {
   background:#70bcb9;
+  box-shadow: 0px 3px 6px rgba(0,0,0, .12);
+  -webkit-box-shadow: 0px 3px 6px rgba(0,0,0, .12);
+  -moz-box-shadow: 0px 3px 6px rgba(0,0,0, .12);
 }
 
 .t-white {
@@ -101,6 +104,11 @@ a, li, td, blockquote {
   padding-bottom:12px;
   padding-left:35px;
 }
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  background: #9c27b0; 
+  border-color: #9c27b0; 
+}
+
 .btn-custom {
   border: 2px solid #fff;
 }
@@ -329,4 +337,103 @@ svg {
 .card-item .card-thumbnail {
   width: 30%;
   float: left;
+}
+.signature-image {
+  width: 150px;
+}
+#headingTwo .btn {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media (max-width: 1024px){
+  .course-info-body ul.disabled-list li,
+  .course-info-body ul li {
+    padding-right: 25px
+  }
+  .details .col-md-4 {text-align: center}
+  .details img {
+    margin: 0px !important;
+  }
+}
+@media (max-width: 640px){
+  .details-facts .d-flex {
+    display: block !important
+  }
+  .details-facts ul {
+    max-width: 100%;
+  }
+  .card-body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .card-item .card-thumbnail {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .card-item .card-thumbnail, .card-item .card-info {
+    width: 100%
+  }
+  .card-item .card-info {
+    padding-left: 0px;
+  }
+  .card-item .card-info .btn {
+    display: block;
+  }
+}
+@media (max-width: 480px){
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }  
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  .course-info {
+    margin-bottom: 1em;
+  }
+  .course-info-body ul.disabled-list li, .course-info-body ul li {
+    padding-right: 0px !important;
+  }
+  .testimonials .papertype{
+    padding: 25px 0px;
+  }
+  .papertype {
+    padding: 25px;
+  }
+  .header-strapline p {
+    font-size: 16px;
+  }
+  .overview .btn {
+    font-size: 16px;
+  }
+  .list-white li {
+    padding-right: 15px;
+  }
+  .list-colored li {
+    padding-right: 0px;
+  }
+  .course-info-body ul {
+    padding-left: 0px;
+  }
+
+  .card-header .btn-link {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .btn {
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: block
+  }
+  .papertype.p-5 {
+    padding: 25px !important
+  }
 }
